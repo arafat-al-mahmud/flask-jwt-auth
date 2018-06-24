@@ -14,3 +14,7 @@ pip install -r requirements.txt
 # serve back-end at localhost:5000
 FLASK_APP=run.py flask run
 ```
+``` docker
+sudo docker build -t flask-jwt .
+sudo docker run -d -p 5001:5000 flask-jwt
+```
